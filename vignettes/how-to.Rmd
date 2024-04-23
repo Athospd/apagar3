@@ -1,0 +1,25 @@
+---
+title: "How to use"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How to use}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(apagar3)
+```
+
+Test okokok
+```{r setup}
+hist(rnorm(100))
+```
+
